@@ -7,7 +7,7 @@ const production = env === "production";
 
 const FILES = {
   entry: ["index.js"],
-  out: "build/js",
+  out: "build",
 };
 
 const SETTINGS = {
@@ -23,7 +23,7 @@ const PLUGINS = [
   //     minify: production,
   //   }),
 ];
-   
+
 /* --- DEVELOPMENT */
 function serveDev() {
   serve(
